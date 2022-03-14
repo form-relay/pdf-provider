@@ -33,7 +33,9 @@
     ],
     "require": {
         "php": "^7.2",
-        "form-relay/core": "^2.0"
+        "form-relay/core": "^2.0",
+        "setasign/fpdf": "^1.8",
+        "tmw/fpdm": "^2.9"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0"
