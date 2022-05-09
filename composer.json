@@ -1,56 +1,60 @@
 {
-    "name": "form-relay/pdf-provider",
-    "type": "library",
-    "description": "FormRelay Data Provider for PDFs with fillable form fields.",
-    "keywords": [
-        "framework",
-        "form",
-        "data",
-        "submission",
-        "relay",
-        "pdf",
-        "formhandler"
-    ],
-    "homepage": "https://www.mediatis.de",
-    "license": "GPL-2.0+",
-    "authors": [
-        {
-            "name": "Michael Vöhringer",
-            "role": "Developer"
-        },
-        {
-            "name": "Meelis Karulin",
-            "role": "Developer"
-        },
-        {
-            "name": "Damian Ickler",
-            "role": "Developer"
-        },
-        {
-            "name": "Stephan Ude",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": "^7.2",
-        "form-relay/core": "^2.0",
-        "setasign/fpdf": "^1.8",
-        "tmw/fpdm": "^2.9"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0"
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "autoload": {
-        "psr-4": {
-            "FormRelay\\PdfProvider\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "FormRelay\\PdfProvider\\Tests\\": "tests/"
-        }
-    }
+	"name": "form-relay/pdf-provider",
+	"type": "library",
+	"description": "FormRelay Data Provider for PDFs with fillable form fields.",
+	"keywords": [
+		"framework",
+		"form",
+		"data",
+		"submission",
+		"relay",
+		"pdf",
+		"formhandler"
+	],
+	"homepage": "https://www.mediatis.de",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Michael Vöhringer",
+			"role": "Developer"
+		},
+		{
+			"name": "Meelis Karulin",
+			"role": "Developer"
+		},
+		{
+			"name": "Damian Ickler",
+			"role": "Developer"
+		},
+		{
+			"name": "Stephan Ude",
+			"role": "Developer"
+		},
+		{
+			"name": "Daniel Bagel",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "^7.2",
+		"form-relay/core": "^2.0",
+		"setasign/fpdf": "^1.8",
+		"tmw/fpdm": "^2.9"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0"
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"autoload": {
+		"psr-4": {
+			"FormRelay\\PdfProvider\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"FormRelay\\PdfProvider\\Tests\\": "tests/"
+		}
+	}
 }
