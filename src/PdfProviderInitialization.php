@@ -7,7 +7,7 @@ use FormRelay\PdfProvider\DataProvider\PdfDataProvider;
 
 class PdfProviderInitialization extends Initialization
 {
-    const DATA_PROVIDERS = [
+    public const DATA_PROVIDERS = [
         PdfDataProvider::class,
     ];
 }
