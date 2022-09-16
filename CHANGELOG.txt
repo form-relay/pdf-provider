@@ -1,3 +1,7 @@
+1.0.2
+
+[BUGFI] Fix syntaxs error in composer.json
+
 1.0.1
 
 [FEATURE] PHP 8.x support
