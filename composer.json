@@ -38,7 +38,6 @@
 	"require": {
 		"php": "^7.2 || ^8.0",
 		"form-relay/core": "^2.0",
-		"setasign/fpdf": "^1.8",
 		"tmw/fpdm": "^2.9"
 	},
 	"require-dev": {
